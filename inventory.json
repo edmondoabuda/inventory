@@ -1,0 +1,36 @@
+{
+    "name": "controlpad/inventory",
+    "description": "Inventory management tool for use internally for ControlPad",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jake Barlow",
+            "email": "jbarlow@controlpad.com"
+        }
+    ],
+     "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://edmondoa@bitbucket.org/edmondoa/package.git"
+    }
+  ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4",
+        "illuminate/view": "~4",
+	"thujohn/pdf": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/seeds",
+            "src/models"        
+        ],
+        "psr-0": {
+            "Controlpad\\Inventory\\": "src/",
+            "Controlpad\\InvMethod\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

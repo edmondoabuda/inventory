@@ -1,0 +1,9 @@
+/vendor
+composer.phar
+composer.lock
+.DS_Store
+app/config/randy_local
+app/config/edmondo
+app/config/emmanuel_local
+app/storage/
+.vagrant/

@@ -1,0 +1,15 @@
+{
+    "packages": {
+        "edmnondoa/inventory": {
+            "dev-master": {
+                "name": "edmnondoa/inventory",
+                "version": "dev-master",
+                "source": {
+                    "url":"https://bitbucket.org/edmondoa/inventory",
+                    "type": "vcs",
+                    "reference": "master"
+                }
+            }
+        }
+    }
+}

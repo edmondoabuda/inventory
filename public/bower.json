@@ -1,0 +1,29 @@
+{
+  "name": "inventory",
+  "version": "1.0",
+  "authors": [
+    "Randy Binondo <randyb@zylun.com>"
+  ],
+  "description": "inventory management package",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "inventory"
+  ],
+  "license": "proprietary",
+  "homepage": "controlpad.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-xeditable": "~0.1.9",
+    "angular-native-picker": "~1.0.4"
+  }
+}
